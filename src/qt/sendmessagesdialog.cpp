@@ -34,7 +34,7 @@ SendMessagesDialog::SendMessagesDialog(Mode mode, Type type, QWidget *parent) :
 #if QT_VERSION >= 0x040700
      /* Do not move this to the XML file, Qt before 4.7 will choke on it */
     if(mode == SendMessagesDialog::Encrypted)
-        ui->addressFrom->setPlaceholderText(tr("Enter a PentaNode address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)"));
+        ui->addressFrom->setPlaceholderText(tr("Enter a CatoCoin address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)"));
  #endif
     addEntry();
 

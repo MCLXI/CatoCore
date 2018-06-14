@@ -24,11 +24,11 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a PentaNode address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a CatoCoin address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a PentaNode address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)"));
-    ui->signatureIn_VM->setPlaceholderText(tr("Enter PentaNode signature"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a CatoCoin address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)"));
+    ui->signatureIn_VM->setPlaceholderText(tr("Enter CatoCoin signature"));
 #endif
 
     GUIUtil::setupAddressWidget(ui->addressIn_SM, this);
@@ -108,7 +108,7 @@ void SignVerifyMessageDialog::on_signMessageButton_SM_clicked()
     /* Clear old signature to ensure users don't get confused on error with an old signature displayed */
     ui->signatureOut_SM->clear();
 
-    CPentanodeAddress addr(ui->addressIn_SM->text().toStdString());
+    CCatocoinAddress addr(ui->addressIn_SM->text().toStdString());
     if (!addr.IsValid())
     {
         ui->addressIn_SM->setValid(false);
@@ -189,7 +189,7 @@ void SignVerifyMessageDialog::on_addressBookButton_VM_clicked()
 
 void SignVerifyMessageDialog::on_verifyMessageButton_VM_clicked()
 {
-    CPentanodeAddress addr(ui->addressIn_VM->text().toStdString());
+    CCatocoinAddress addr(ui->addressIn_VM->text().toStdString());
     if (!addr.IsValid())
     {
         ui->addressIn_VM->setValid(false);
@@ -230,7 +230,7 @@ void SignVerifyMessageDialog::on_verifyMessageButton_VM_clicked()
         return;
     }
 
-    if (!(CPentanodeAddress(pubkey.GetID()) == addr))
+    if (!(CCatocoinAddress(pubkey.GetID()) == addr))
     {
         ui->statusLabel_VM->setStyleSheet("QLabel { color: red; }");
         ui->statusLabel_VM->setText(QString("<nobr>") + tr("Message verification failed.") + QString("</nobr>"));

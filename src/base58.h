@@ -92,23 +92,23 @@ public:
     bool operator> (const CBase58Data& b58) const { return CompareTo(b58) >  0; }
 };
 
-/** base58-encoded PentaNode addresses.
+/** base58-encoded CatoCoin addresses.
  * Public-key-hash-addresses have version 0 (or 111 testnet).
  * The data vector contains RIPEMD160(SHA256(pubkey)), where pubkey is the serialized public key.
  * Script-hash-addresses have version 5 (or 196 testnet).
  * The data vector contains RIPEMD160(SHA256(cscript)), where cscript is the serialized redemption script.
  */
-class CPentanodeAddress : public CBase58Data {
+class CCatocoinAddress : public CBase58Data {
 public:
     bool Set(const CKeyID &id);
     bool Set(const CScriptID &id);
     bool Set(const CTxDestination &dest);
     bool IsValid() const;
 
-    CPentanodeAddress() {}
-    CPentanodeAddress(const CTxDestination &dest) { Set(dest); }
-    CPentanodeAddress(const std::string& strAddress) { SetString(strAddress); }
-    CPentanodeAddress(const char* pszAddress) { SetString(pszAddress); }
+    CCatocoinAddress() {}
+    CCatocoinAddress(const CTxDestination &dest) { Set(dest); }
+    CCatocoinAddress(const std::string& strAddress) { SetString(strAddress); }
+    CCatocoinAddress(const char* pszAddress) { SetString(pszAddress); }
 
     CTxDestination Get() const;
     bool GetKeyID(CKeyID &keyID) const;
@@ -118,7 +118,7 @@ public:
 /**
  * A base58-encoded secret key
  */
-class CPentanodeSecret : public CBase58Data
+class CCatocoinSecret : public CBase58Data
 {
 public:
     void SetKey(const CKey& vchSecret);
@@ -127,11 +127,11 @@ public:
     bool SetString(const char* pszSecret);
     bool SetString(const std::string& strSecret);
 
-    CPentanodeSecret(const CKey& vchSecret) { SetKey(vchSecret); }
-    CPentanodeSecret() {}
+    CCatocoinSecret(const CKey& vchSecret) { SetKey(vchSecret); }
+    CCatocoinSecret() {}
 };
 
-template<typename K, int Size, CChainParams::Base58Type Type> class CPentanodeExtKeyBase : public CBase58Data
+template<typename K, int Size, CChainParams::Base58Type Type> class CCatocoinExtKeyBase : public CBase58Data
 {
 public:
     void SetKey(const K &key) {
@@ -146,15 +146,15 @@ public:
         return ret;
     }
 
-    CPentanodeExtKeyBase(const K &key) {
+    CCatocoinExtKeyBase(const K &key) {
         SetKey(key);
     }
 
-    CPentanodeExtKeyBase() {}
+    CCatocoinExtKeyBase() {}
 };
 
-typedef CPentanodeExtKeyBase<CExtKey, 74, CChainParams::EXT_SECRET_KEY> CPentanodeExtKey;
-typedef CPentanodeExtKeyBase<CExtPubKey, 74, CChainParams::EXT_PUBLIC_KEY> CPentanodeExtPubKey;
+typedef CCatocoinExtKeyBase<CExtKey, 74, CChainParams::EXT_SECRET_KEY> CCatocoinExtKey;
+typedef CCatocoinExtKeyBase<CExtPubKey, 74, CChainParams::EXT_PUBLIC_KEY> CCatocoinExtPubKey;
 
 /** base58-encoded Bitcoin addresses.
  * Public-key-hash-addresses have version 0 (or 111 testnet).

@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About PentaNode</source>
-        <translation>Au sujet de PentaNode</translation>
+        <source>About CatoCoin</source>
+        <translation>Au sujet de CatoCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;PentaNode&lt;/b&gt; version</source>
-        <translation>Version de &lt;b&gt;PentaNode&lt;/b&gt;</translation>
+        <source>&lt;b&gt;CatoCoin&lt;/b&gt; version</source>
+        <translation>Version de &lt;b&gt;CatoCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The PentaNode developers</source>
+Copyright © 2015-2017 The CatoCoin developers</source>
         <translation>Copyright © 2009-2014 Les développeurs Bitcoin
 Copyright © 2012-2014 Les développeurs NovaCoin
-Copyright © 2015-2017 Les développeurs PentaNode</translation>
+Copyright © 2015-2017 Les développeurs CatoCoin</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,7 +60,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your PentaNode addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your CatoCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Ce sont vos adresses pour recevoir vos paiements. Vous pouvez utiliser une adresse différente pour chaque réception afin d&apos;identifier facilement le payeur.</translation>
     </message>
     <message>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a PentaNode address</source>
-        <translation>Signer un message afin de valider l&apos;identité de votre adresse PentaNode</translation>
+        <source>Sign a message to prove you own a CatoCoin address</source>
+        <translation>Signer un message afin de valider l&apos;identité de votre adresse CatoCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified PentaNode address</source>
-        <translation>Vérifier un message pour s&apos;assurer qu&apos;il vient d&apos;un adresse PentaNode spécifique.</translation>
+        <source>Verify a message to ensure it was signed with a specified CatoCoin address</source>
+        <translation>Vérifier un message pour s&apos;assurer qu&apos;il vient d&apos;un adresse CatoCoin spécifique.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -227,7 +227,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Avertissement : Si vous chiffrez votre portefeuille et perdez votre passphrase, vous ne pourrez &lt;b&gt;plus accéder à vos PentaNodes&lt;/b&gt;!</translation>
+        <translation>Avertissement : Si vous chiffrez votre portefeuille et perdez votre passphrase, vous ne pourrez &lt;b&gt;plus accéder à vos CatoCoins&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>PentaNode will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>L&apos;application PentaNode va désormais se terminer afin de finaliser le processus de chiffrage. Merci de noter que le chiffrage du portefeuille ne garantit pas de se prémunir du vol via utilisation de malware, qui auraient pu infecter votre ordinateur. </translation>
+        <source>CatoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>L&apos;application CatoCoin va désormais se terminer afin de finaliser le processus de chiffrage. Merci de noter que le chiffrage du portefeuille ne garantit pas de se prémunir du vol via utilisation de malware, qui auraient pu infecter votre ordinateur. </translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about PentaNode</source>
-        <translation>Afficher des informations au sujet de PentaNode</translation>
+        <source>Show information about CatoCoin</source>
+        <translation>Afficher des informations au sujet de CatoCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a PentaNode address</source>
-        <translation>Envoyer des monnaies vers une adresse PentaNode</translation>
+        <source>Send coins to a CatoCoin address</source>
+        <translation>Envoyer des monnaies vers une adresse CatoCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for PentaNode</source>
-        <translation>Modification des options de configuration de PentaNode</translation>
+        <source>Modify configuration options for CatoCoin</source>
+        <translation>Modification des options de configuration de CatoCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>PentaNode</source>
-        <translation>PentaNode</translation>
+        <source>CatoCoin</source>
+        <translation>CatoCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About PentaNode</source>
-        <translation>&amp;Au sujet de PentaNode</translation>
+        <source>&amp;About CatoCoin</source>
+        <translation>&amp;Au sujet de CatoCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>PentaNode client</source>
-        <translation>Client PentaNode</translation>
+        <source>CatoCoin client</source>
+        <translation>Client CatoCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to PentaNode network</source>
-        <translation><numerusform>%n connexion active au réseau PentaNode</numerusform><numerusform>%n connexions actives au réseau PentaNode</numerusform></translation>
+        <source>%n active connection(s) to CatoCoin network</source>
+        <translation><numerusform>%n connexion active au réseau CatoCoin</numerusform><numerusform>%n connexions actives au réseau CatoCoin</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresse : %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid PentaNode address or malformed URI parameters.</source>
-        <translation>L&apos;adresse du portefeuille PentaNode n&apos;as pas pu être correctement identifiée, car invalide ou malformée.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CatoCoin address or malformed URI parameters.</source>
+        <translation>L&apos;adresse du portefeuille CatoCoin n&apos;as pas pu être correctement identifiée, car invalide ou malformée.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. PentaNode can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale a été rencontrée. L&apos;application PentaNode ne peut plus être s&apos;exécuter de façon correcte et va se terminer.</translation>
+        <source>A fatal error occurred. CatoCoin can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale a été rencontrée. L&apos;application CatoCoin ne peut plus être s&apos;exécuter de façon correcte et va se terminer.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid PentaNode address.</source>
-        <translation>L&apos;adresse &quot;%1&quot; renseignée n&apos;est pas une adresse PentaNode valide.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CatoCoin address.</source>
+        <translation>L&apos;adresse &quot;%1&quot; renseignée n&apos;est pas une adresse CatoCoin valide.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>PentaNode-Qt</source>
-        <translation>PentaNode-Qt</translation>
+        <source>CatoCoin-Qt</source>
+        <translation>CatoCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start PentaNode after logging in to the system.</source>
-        <translation>Démarrage automatique du client PentaNode lors de la connexion au système</translation>
+        <source>Automatically start CatoCoin after logging in to the system.</source>
+        <translation>Démarrage automatique du client CatoCoin lors de la connexion au système</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start PentaNode on system login</source>
-        <translation>&amp;Démarrage du client PentaNode à la connexion au système</translation>
+        <source>&amp;Start CatoCoin on system login</source>
+        <translation>&amp;Démarrage du client CatoCoin à la connexion au système</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the PentaNode client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquemwnr le port client de PentaNode sur le routeur. Ceci ne fonctionne que dans le cas où le support UPnP sur votre routeur existe et est actif.</translation>
+        <source>Automatically open the CatoCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquemwnr le port client de CatoCoin sur le routeur. Ceci ne fonctionne que dans le cas où le support UPnP sur votre routeur existe et est actif.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the PentaNode network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connexion au réseau PentaNode à travers un proxy SOCKS (e.g. Connexion via le réseau Tor).</translation>
+        <source>Connect to the CatoCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connexion au réseau CatoCoin à travers un proxy SOCKS (e.g. Connexion via le réseau Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting PentaNode.</source>
-        <translation>La langue d&apos;interface de l&apos;utilisateur peut être définie ici. Les modification seront prises en compte après redémarrage de l&apos;application PentaNode</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CatoCoin.</source>
+        <translation>La langue d&apos;interface de l&apos;utilisateur peut être définie ici. Les modification seront prises en compte après redémarrage de l&apos;application CatoCoin</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting PentaNode.</source>
-        <translation>Les paramètres prendront effet après redémarrage du client PentaNode</translation>
+        <source>This setting will take effect after restarting CatoCoin.</source>
+        <translation>Les paramètres prendront effet après redémarrage du client CatoCoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PentaNode network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées peuvent être obsolètes. Votre portefeuille se synchronise automatiquement avec le réseau PentaNode mais ce processus n&apos;est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CatoCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées peuvent être obsolètes. Votre portefeuille se synchronise automatiquement avec le réseau CatoCoin mais ce processus n&apos;est pas encore terminé.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1577,8 +1577,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the PentaNode-Qt help message to get a list with possible PentaNode command-line options.</source>
-        <translation>Afficher le message d&apos;aide PentaNode-Qt afin d&apos;obtenir la liste des options de de L&apos;outil en ligne de commande PentaNode</translation>
+        <source>Show the CatoCoin-Qt help message to get a list with possible CatoCoin command-line options.</source>
+        <translation>Afficher le message d&apos;aide CatoCoin-Qt afin d&apos;obtenir la liste des options de de L&apos;outil en ligne de commande CatoCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="-104"/>
-        <source>PentaNode - Debug window</source>
-        <translation>PentaNode - Fenêtre de déboggage</translation>
+        <source>CatoCoin - Debug window</source>
+        <translation>CatoCoin - Fenêtre de déboggage</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>PentaNode Core</source>
-        <translation>PentaNode Core</translation>
+        <source>CatoCoin Core</source>
+        <translation>CatoCoin Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the PentaNode debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvrir le fichier journal de debug PentaNode au sein du répertoire courant. Cette opération peut prendre quelques secondes dans le cas de fichiers journaux volumineux.</translation>
+        <source>Open the CatoCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ouvrir le fichier journal de debug CatoCoin au sein du répertoire courant. Cette opération peut prendre quelques secondes dans le cas de fichiers journaux volumineux.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the PentaNode RPC console.</source>
-        <translation>Bienvenue sur la console RPC de PentaNode.</translation>
+        <source>Welcome to the CatoCoin RPC console.</source>
+        <translation>Bienvenue sur la console RPC de CatoCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1731,8 +1731,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 PTN</source>
-        <translation>123.456 PTN {0.00 ?}</translation>
+        <source>0.00 CATO</source>
+        <translation>123.456 CATO {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 PTN</source>
-        <translation>123.456 PTN</translation>
+        <source>123.456 CATO</source>
+        <translation>123.456 CATO</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1816,8 +1816,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a PentaNode address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</source>
-        <translation>Entrer une adresse PentaNode (par ex: P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
+        <source>Enter a CatoCoin address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</source>
+        <translation>Entrer une adresse CatoCoin (par ex: P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid PentaNode address</source>
-        <translation>AVERTISSEMENT: Adresse PentaNode Invalide</translation>
+        <source>WARNING: Invalid CatoCoin address</source>
+        <translation>AVERTISSEMENT: Adresse CatoCoin Invalide</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1927,7 +1927,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="+4"/>
         <source>WARNING: unknown change address</source>
-        <translation>AVERTISSEMENT: Adresse PentaNode Invalide</translation>
+        <translation>AVERTISSEMENT: Adresse CatoCoin Invalide</translation>
     </message>
 </context>
 <context>
@@ -1990,8 +1990,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a PentaNode address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</source>
-        <translation>Entrer une adresse PentaNode (par ex: P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
+        <source>Enter a CatoCoin address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</source>
+        <translation>Entrer une adresse CatoCoin (par ex: P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
     </message>
 </context>
 <context>
@@ -2015,7 +2015,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</source>
-        <translation>Entrer une adresse PentaNode (par ex: P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
+        <translation>Entrer une adresse CatoCoin (par ex: P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2051,8 +2051,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this PentaNode address</source>
-        <translation>Signer le message afin de prouver l&apos;identité de votre adresse PentaNode</translation>
+        <source>Sign the message to prove you own this CatoCoin address</source>
+        <translation>Signer le message afin de prouver l&apos;identité de votre adresse CatoCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,8 +2083,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified PentaNode address</source>
-        <translation>Vérifiez le message afin de vous assurer qu&apos;il provient de l&apos;adresse PentaNode spécifiée.</translation>
+        <source>Verify the message to ensure it was signed with the specified CatoCoin address</source>
+        <translation>Vérifiez le message afin de vous assurer qu&apos;il provient de l&apos;adresse CatoCoin spécifiée.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a PentaNode address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</source>
-        <translation>Entrer une adresse PentaNode (par ex: P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
+        <source>Enter a CatoCoin address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</source>
+        <translation>Entrer une adresse CatoCoin (par ex: P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter PentaNode signature</source>
-        <translation>Entrer une signature PentaNode</translation>
+        <source>Enter CatoCoin signature</source>
+        <translation>Entrer une signature CatoCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>PentaNode version</source>
-        <translation>Version PentaNode</translation>
+        <source>CatoCoin version</source>
+        <translation>Version CatoCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or PentaNoded</source>
-        <translation>Envoyer commande à -server ou PentaNoded</translation>
+        <source>Send command to -server or CatoCoind</source>
+        <translation>Envoyer commande à -server ou CatoCoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: PentaNode.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut: PentaNode.conf)</translation>
+        <source>Specify configuration file (default: CatoCoin.conf)</source>
+        <translation>Spécifier le fichier de configuration (par défaut: CatoCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: PentaNoded.pid)</source>
-        <translation>Spécifier le fichier pid (par défaut: PentaNoded.pid)</translation>
+        <source>Specify pid file (default: CatoCoind.pid)</source>
+        <translation>Spécifier le fichier pid (par défaut: CatoCoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,13 +2736,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=PentaNoderpc
+rpcuser=CatoCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;PentaNode Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CatoCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2848,8 +2848,8 @@ for example: alertnotify=echo %%s | mail -s &quot;PentaNode Alert&quot; admin@fo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong PentaNode will not work properly.</source>
-        <translation>Avertissement: Veuillez vérifier la date et l&apos;heure de votre ordinateur. PentaNode ne pourra pas fonctionner correctement si l&apos;horloge est réglée de façon incorrecte</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CatoCoin will not work properly.</source>
+        <translation>Avertissement: Veuillez vérifier la date et l&apos;heure de votre ordinateur. CatoCoin ne pourra pas fonctionner correctement si l&apos;horloge est réglée de façon incorrecte</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3155,7 +3155,7 @@ for example: alertnotify=echo %%s | mail -s &quot;PentaNode Alert&quot; admin@fo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. PentaNode is shutting down.</source>
+        <source>Initialization sanity check failed. CatoCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3220,13 +3220,13 @@ for example: alertnotify=echo %%s | mail -s &quot;PentaNode Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of PentaNode</source>
-        <translation>Erreur de chargement du fichier wallet.dat: le portefeuille nécessite une version plus récente de l&apos;application PentaNode</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CatoCoin</source>
+        <translation>Erreur de chargement du fichier wallet.dat: le portefeuille nécessite une version plus récente de l&apos;application CatoCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart PentaNode to complete</source>
-        <translation>Le portefeuille nécessite d&apos;être réédité : Merci de relancer l&apos;application PentaNode</translation>
+        <source>Wallet needed to be rewritten: restart CatoCoin to complete</source>
+        <translation>Le portefeuille nécessite d&apos;être réédité : Merci de relancer l&apos;application CatoCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3290,8 +3290,8 @@ for example: alertnotify=echo %%s | mail -s &quot;PentaNode Alert&quot; admin@fo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. PentaNode is probably already running.</source>
-        <translation>Connexion au port %s impossible. L&apos;application PentaNode est probablement déjà en cours d&apos;exécution</translation>
+        <source>Unable to bind to %s on this computer. CatoCoin is probably already running.</source>
+        <translation>Connexion au port %s impossible. L&apos;application CatoCoin est probablement déjà en cours d&apos;exécution</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3330,7 +3330,7 @@ for example: alertnotify=echo %%s | mail -s &quot;PentaNode Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. PentaNode is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. CatoCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

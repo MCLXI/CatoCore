@@ -42,7 +42,7 @@ public:
         CoinControlFeatures,    // bool
         UseBlackTheme,     // bool
         DarksendRounds,    // int
-        AnonymizePentaNodeAmount, //int
+        AnonymizeCatoCoinAmount, //int
         OptionIDRowCount,
     };
 
@@ -84,7 +84,7 @@ signals:
     void reserveBalanceChanged(qint64);
     void coinControlFeaturesChanged(bool);
     void darksendRoundsChanged(int);
-    void AnonymizePentaNodeAmountChanged(int);
+    void AnonymizeCatoCoinAmountChanged(int);
 };
 
 #endif // OPTIONSMODEL_H

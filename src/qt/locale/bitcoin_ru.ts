@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About PentaNode</source>
-        <translation>О PentaNode</translation>
+        <source>About CatoCoin</source>
+        <translation>О CatoCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;PentaNode&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;PentaNode&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;CatoCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;CatoCoin&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The PentaNode developers</source>
+Copyright © 2015-2017 The CatoCoin developers</source>
         <translation>Все права защищены © 2009-2014 Разработчики Bitcoin
 Все права защищены © 2012-2014 Разработчики NovaCoin
-Все права защищены © 2015-2017 Разработчики PentaNode</translation>
+Все права защищены © 2015-2017 Разработчики CatoCoin</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,7 +60,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your PentaNode addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your CatoCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a PentaNode address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом PentaNode</translation>
+        <source>Sign a message to prove you own a CatoCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом CatoCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified PentaNode address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом PentaNode</translation>
+        <source>Verify a message to ensure it was signed with a specified CatoCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом CatoCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,7 +258,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>PentaNode will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>CatoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about PentaNode</source>
-        <translation>Показать информацию о PentaNode&apos;е</translation>
+        <source>Show information about CatoCoin</source>
+        <translation>Показать информацию о CatoCoin&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a PentaNode address</source>
-        <translation>Отправить монеты на указанный адрес PentaNode</translation>
+        <source>Send coins to a CatoCoin address</source>
+        <translation>Отправить монеты на указанный адрес CatoCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for PentaNode</source>
-        <translation>Изменить параметры конфигурации PentaNode</translation>
+        <source>Modify configuration options for CatoCoin</source>
+        <translation>Изменить параметры конфигурации CatoCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>PentaNode</source>
-        <translation>PentaNode</translation>
+        <source>CatoCoin</source>
+        <translation>CatoCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About PentaNode</source>
-        <translation>&amp;О PentaNode</translation>
+        <source>&amp;About CatoCoin</source>
+        <translation>&amp;О CatoCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,12 +500,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>PentaNode client</source>
-        <translation>PentaNode клиент</translation>
+        <source>CatoCoin client</source>
+        <translation>CatoCoin клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to PentaNode network</source>
+        <source>%n active connection(s) to CatoCoin network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -600,8 +600,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid PentaNode address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом PentaNode или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid CatoCoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом CatoCoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. PentaNode can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. PentaNode не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. CatoCoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. CatoCoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -1043,8 +1043,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid PentaNode address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным PentaNode-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid CatoCoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным CatoCoin-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1062,8 +1062,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>PentaNode-Qt</source>
-        <translation>PentaNode-Qt</translation>
+        <source>CatoCoin-Qt</source>
+        <translation>CatoCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1135,13 +1135,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start PentaNode after logging in to the system.</source>
-        <translation>Автоматически запускать PentaNode после входа в систему</translation>
+        <source>Automatically start CatoCoin after logging in to the system.</source>
+        <translation>Автоматически запускать CatoCoin после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start PentaNode on system login</source>
-        <translation>&amp;Запускать PentaNode при входе в систему</translation>
+        <source>&amp;Start CatoCoin on system login</source>
+        <translation>&amp;Запускать CatoCoin при входе в систему</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1150,8 +1150,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the PentaNode client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для PentaNode-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the CatoCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для CatoCoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1160,8 +1160,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the PentaNode network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети PentaNode через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the CatoCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети CatoCoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1235,8 +1235,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting PentaNode.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска PentaNode.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting CatoCoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска CatoCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1302,8 +1302,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting PentaNode.</source>
-        <translation>Эта настройка вступит в силу после перезапуска PentaNode</translation>
+        <source>This setting will take effect after restarting CatoCoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска CatoCoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1321,8 +1321,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PentaNode network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью PentaNode после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CatoCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью CatoCoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1563,8 +1563,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the PentaNode-Qt help message to get a list with possible PentaNode command-line options.</source>
-        <translation>Показать помощь по PentaNode-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the CatoCoin-Qt help message to get a list with possible CatoCoin command-line options.</source>
+        <translation>Показать помощь по CatoCoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1583,13 +1583,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>PentaNode - Debug window</source>
-        <translation>PentaNode - Окно отладки</translation>
+        <source>CatoCoin - Debug window</source>
+        <translation>CatoCoin - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>PentaNode Core</source>
-        <translation>Ядро PentaNode</translation>
+        <source>CatoCoin Core</source>
+        <translation>Ядро CatoCoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1598,8 +1598,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the PentaNode debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл PentaNode из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the CatoCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл CatoCoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1608,8 +1608,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the PentaNode RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль PentaNode.</translation>
+        <source>Welcome to the CatoCoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль CatoCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1717,7 +1717,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 PTN</source>
+        <source>0.00 CATO</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1787,8 +1787,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 PTN</source>
-        <translation>123.456 PTN</translation>
+        <source>123.456 CATO</source>
+        <translation>123.456 CATO</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1802,8 +1802,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a PentaNode address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</source>
-        <translation>Введите PentaNode-адрес (например P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
+        <source>Enter a CatoCoin address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</source>
+        <translation>Введите CatoCoin-адрес (например P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1902,7 +1902,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid PentaNode address</source>
+        <source>WARNING: Invalid CatoCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1976,8 +1976,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a PentaNode address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</source>
-        <translation>Введите PentaNode-адрес (например P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
+        <source>Enter a CatoCoin address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</source>
+        <translation>Введите CatoCoin-адрес (например P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
     </message>
 </context>
 <context>
@@ -2037,8 +2037,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this PentaNode address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом PentaNode</translation>
+        <source>Sign the message to prove you own this CatoCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом CatoCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2069,8 +2069,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified PentaNode address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом PentaNode</translation>
+        <source>Verify the message to ensure it was signed with the specified CatoCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом CatoCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2080,8 +2080,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a PentaNode address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</source>
-        <translation>Введите адрес PentaNode (напр. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
+        <source>Enter a CatoCoin address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</source>
+        <translation>Введите адрес CatoCoin (напр. P8CA654Df1sxw132M3dw865f1FgCX26l1a)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2090,8 +2090,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter PentaNode signature</source>
-        <translation>Введите подпись PentaNode</translation>
+        <source>Enter CatoCoin signature</source>
+        <translation>Введите подпись CatoCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2669,7 +2669,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>PentaNode version</source>
+        <source>CatoCoin version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2679,8 +2679,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or PentaNoded</source>
-        <translation>Отправить команду на -server или PentaNoded</translation>
+        <source>Send command to -server or CatoCoind</source>
+        <translation>Отправить команду на -server или CatoCoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2700,13 +2700,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: PentaNode.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: PentaNode.conf)</translation>
+        <source>Specify configuration file (default: CatoCoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: CatoCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: PentaNoded.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: PentaNoded.pid)</translation>
+        <source>Specify pid file (default: CatoCoind.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: CatoCoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2723,13 +2723,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=PentaNoderpc
+rpcuser=CatoCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;PentaNode Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;CatoCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2835,8 +2835,8 @@ for example: alertnotify=echo %%s | mail -s &quot;PentaNode Alert&quot; admin@fo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong PentaNode will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, PentaNode будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CatoCoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, CatoCoin будет работать некорректно.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3142,7 +3142,7 @@ for example: alertnotify=echo %%s | mail -s &quot;PentaNode Alert&quot; admin@fo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. PentaNode is shutting down.</source>
+        <source>Initialization sanity check failed. CatoCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3207,13 +3207,13 @@ for example: alertnotify=echo %%s | mail -s &quot;PentaNode Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of PentaNode</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию PentaNode</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of CatoCoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию CatoCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart PentaNode to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите PentaNode для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart CatoCoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите CatoCoin для завершения операции</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3277,8 +3277,8 @@ for example: alertnotify=echo %%s | mail -s &quot;PentaNode Alert&quot; admin@fo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. PentaNode is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, PentaNode уже работает.</translation>
+        <source>Unable to bind to %s on this computer. CatoCoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, CatoCoin уже работает.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3317,7 +3317,7 @@ for example: alertnotify=echo %%s | mail -s &quot;PentaNode Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. PentaNode is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. CatoCoin is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>

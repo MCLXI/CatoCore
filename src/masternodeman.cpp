@@ -443,7 +443,7 @@ void CMasternodeMan::RecordMasternodePayment(CScript payee, int64_t nBlockTime, 
             if (mnrewardaddress == payee || mnpayee == payee) {
                 CTxDestination address1;
                 ExtractDestination(mnpayee, address1);
-                CPentanodeAddress address2(address1);
+                CCatocoinAddress address2(address1);
                 if (targetMn != NULL) {
                     if (targetMn->nLastPaid > mn.nLastPaid) {
                         targetMn = &mn;
@@ -458,7 +458,7 @@ void CMasternodeMan::RecordMasternodePayment(CScript payee, int64_t nBlockTime, 
             if (mnpayee == payee) {
                 CTxDestination address1;
                 ExtractDestination(mnpayee, address1);
-                CPentanodeAddress address2(address1);
+                CCatocoinAddress address2(address1);
                 if (targetMn != NULL) {
                     if (targetMn->nLastPaid > mn.nLastPaid) {
                         targetMn = &mn;

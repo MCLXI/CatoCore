@@ -66,13 +66,13 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    if (!settings.contains("nAnonymizePentaNodeAmount"))
-        settings.setValue("nAnonymizePentaNodeAmount", 1000);
-    nAnonymizePentaNodeAmount = settings.value("nAnonymizePentaNodeAmount").toLongLong();
+    if (!settings.contains("nAnonymizeCatoCoinAmount"))
+        settings.setValue("nAnonymizeCatoCoinAmount", 1000);
+    nAnonymizeCatoCoinAmount = settings.value("nAnonymizeCatoCoinAmount").toLongLong();
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizePentaNodeAmount"))
-        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizePentaNodeAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeCatoCoinAmount"))
+        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeCatoCoinAmount").toString().toStdString());
 
 
 
@@ -206,8 +206,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fCoinControlFeatures;
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizePentaNodeAmount:
-            return QVariant(nAnonymizePentaNodeAmount);
+        case AnonymizeCatoCoinAmount:
+            return QVariant(nAnonymizeCatoCoinAmount);
         case UseBlackTheme:
             return QVariant(fUseBlackTheme);
         default:
@@ -318,10 +318,10 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit darksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizePentaNodeAmount:
-            nAnonymizePentaNodeAmount = value.toInt();
-            settings.setValue("nAnonymizePentaNodeAmount", nAnonymizePentaNodeAmount);
-            emit AnonymizePentaNodeAmountChanged(nAnonymizePentaNodeAmount);
+        case AnonymizeCatoCoinAmount:
+            nAnonymizeCatoCoinAmount = value.toInt();
+            settings.setValue("nAnonymizeCatoCoinAmount", nAnonymizeCatoCoinAmount);
+            emit AnonymizeCatoCoinAmountChanged(nAnonymizeCatoCoinAmount);
             break;
         default:
             break;

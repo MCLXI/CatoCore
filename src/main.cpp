@@ -81,7 +81,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "PentaNode Signed Message:\n";
+const string strMessageMagic = "CatoCoin Signed Message:\n";
 
 std::set<uint256> setValidatedTx;
 
@@ -1376,7 +1376,7 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 {
     int64_t nSubsidy = 0;
     if (nHeight < 21) {
-        nSubsidy = 200000 * COIN; // 4M PTN Premine
+        nSubsidy = 200000 * COIN; // 4M CATO Premine
     }
     else {
         nSubsidy = 1 * COIN;
@@ -2617,7 +2617,7 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
 
                     CTxDestination address1;
                     ExtractDestination(payee, address1);
-                    CPentanodeAddress address2(address1);
+                    CCatocoinAddress address2(address1);
 
                     if(!foundPaymentAndPayee) {
                         if(fDebug) { LogPrintf("CheckBlock() : Couldn't find masternode payment(%d|%d) or payee(%d|%s) nHeight %d. \n", foundPaymentAmount, masternodePaymentAmount, foundPayee, address2.ToString().c_str(), pindexBest->nHeight+1); }
@@ -2785,7 +2785,7 @@ bool CBlock::AcceptBlock()
         }
         CTxDestination address1;
         ExtractDestination(payee, address1);
-        CPentanodeAddress address2(address1);
+        CCatocoinAddress address2(address1);
 
         mnodeman.RecordMasternodePayment(payee, nTime, PROTOCOL_VERSION);
     }
@@ -3331,7 +3331,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("PentaNode-loadblk");
+    RenameThread("CatoCoin-loadblk");
 
     CImportingNow imp;
 

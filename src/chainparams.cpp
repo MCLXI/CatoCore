@@ -66,7 +66,7 @@ public:
 		nRPCPort = 8558;
 		bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 
-		const char* pszTimestamp = "PentaNode, a 5 level tiered masternode system. https://pentanode-crypto.com. GenesisBlock 10th of May 2018";
+		const char* pszTimestamp = "CatoCoin, a 5 level tiered masternode system. https://catocoin-crypto.com. GenesisBlock 10th of May 2018";
 		std::vector<CTxIn> vin;
 		vin.resize(1);
 		vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));

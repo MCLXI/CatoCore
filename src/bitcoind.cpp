@@ -52,12 +52,12 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("PentaNode version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("CatoCoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  PentaNoded [options]                     " + "\n" +
-                  "  PentaNoded [options] <command> [params]  " + _("Send command to -server or PentaNoded") + "\n" +
-                  "  PentaNoded [options] help                " + _("List commands") + "\n" +
-                  "  PentaNoded [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  CatoCoind [options]                     " + "\n" +
+                  "  CatoCoind [options] <command> [params]  " + _("Send command to -server or CatoCoind") + "\n" +
+                  "  CatoCoind [options] help                " + _("List commands") + "\n" +
+                  "  CatoCoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -67,7 +67,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "PentaNode:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "CatoCoin:"))
                 fCommandLine = true;
 
         if (fCommandLine)

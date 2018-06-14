@@ -43,7 +43,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a PentaNode address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)"));
+    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a CatoCoin address (e.g. P8CA654Df1sxw132M3dw865f1FgCX26l1a)"));
 #endif
 
     addEntry();
@@ -537,7 +537,7 @@ bool SendCoinsDialog::handleURI(const QString &uri)
     // URI has to be valid
     if (GUIUtil::parseBitcoinURI(uri, &rv))
     {
-        CPentanodeAddress address(rv.address.toStdString());
+        CCatocoinAddress address(rv.address.toStdString());
         if (!address.IsValid())
             return false;
         pasteEntry(rv);
@@ -847,7 +847,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         CoinControlDialog::coinControl->destChange = CNoDestination();
         ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
 
-        CPentanodeAddress addr = CPentanodeAddress(text.toStdString());
+        CCatocoinAddress addr = CCatocoinAddress(text.toStdString());
 
         if (text.isEmpty()) // Nothing entered
         {
@@ -855,7 +855,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid PentaNode address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid CatoCoin address"));
         }
         else // Valid address
         {

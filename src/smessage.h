@@ -166,7 +166,7 @@ public:
 
 
 // -- get at the data
-class CPentanodeAddress_B : public CPentanodeAddress
+class CCatocoinAddress_B : public CCatocoinAddress
 {
 public:
     uint8_t getVersion()
