@@ -112,7 +112,7 @@ struct CMainSignals {
 
 bool IsMNCollateralValid(int64_t value, int nHeight) {
     if (nHeight < TIERED_MASTERNODES_START_BLOCK)
-        return value == 5000*COIN;
+        return value == 1000*COIN;
     else {
         BOOST_FOREACH(PAIRTYPE(const int, int)& mntier, masternodeTiers) {
             if (value == (mntier.second)*COIN)  return true;
@@ -123,8 +123,64 @@ bool IsMNCollateralValid(int64_t value, int nHeight) {
 
 int64_t GetMNCollateral(int nHeight, int tier) {
     if (nHeight < TIERED_MASTERNODES_START_BLOCK) {
-        return 5000;
+        return 1000;
     } else {
+/*	int active_nodes = tier;
+	int tier_ack;
+	 if (active_nodes <= 30) {
+		tier_ack = 1;
+    } else if (active_nodes <= 60) {
+	//collat_required = 1200 * COIN;
+	tier_ack=2;
+    } else if (active_nodes <= 90) {
+//	collat_required = 1300 * COIN;
+	tier_ack=3;
+    } else if (active_nodes <= 120) {
+  //      collat_required = 1400 * COIN;
+	tier_ack=4;
+    } else if (active_nodes <= 150) {
+    //    collat_required = 1425 * COIN;
+	tier_ack=5;
+    } else if (active_nodes <= 180) {
+      //  collat_required = 1550 * COIN;
+	tier_ack=6;
+    } else if (active_nodes <= 210) {
+      //  collat_required = 1675 * COIN;
+	tier_ack=7;
+    } else if (active_nodes <= 240) {
+       // collat_required = 1800 * COIN;
+	tier_ack=8;
+    } else if (active_nodes <= 270) {
+       // collat_required = 1925 * COIN;
+	tier_ack=9;
+    } else if (active_nodes <= 300) {
+        //collat_required = 2075 * COIN;
+	tier_ack=10;
+    } else if (active_nodes <= 330) {
+       // collat_required = 2275 * COIN;
+	tier_ack=11;
+    } else if (active_nodes <= 360) {
+        //collat_required = 2450 * COIN;
+	tier_ack=12;
+    } else if (active_nodes <= 390) {
+       // collat_required = 2675 * COIN;
+	tier_ack=13;
+    } else if (active_nodes <= 420) {
+       // collat_required = 2900 * COIN;
+	tier_ack=14;
+    } else if (active_nodes <= 450) {
+       // collat_required = 3100 * COIN;
+	tier_ack=15;
+    } else if (active_nodes <= 480) {
+       // collat_required = 3375 * COIN;
+	tier_ack=16;
+    } else if (active_nodes <= 510) {
+       // collat_required = 3675 * COIN;
+	tier_ack=17;
+    } else if (active_nodes >= 511) {
+       // collat_required = 4000 * COIN;
+	tier_ack=18;
+    }*/
         return masternodeTiers[tier];
     }
 }
@@ -1387,20 +1443,62 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 }
 
 // Checks if a given reward present in a block is valid
-bool IsPOSRewardValid(int64_t value, int64_t nFees) {
+bool IsPOSRewardValid(int64_t value, int64_t nFees) { //checked, good
     int nHeight = pindexBest->nHeight+1;
-    if (nHeight <= 15000) {
-        return value == (25*COIN + nFees);
+    if (nHeight <= 6) {
+        return true;
     }
     else {
         if (nHeight <= TIERED_MASTERNODES_START_BLOCK) {
-            return value == (125*COIN + nFees);
+            //return value == (125*COIN + nFees);
+		return true;
         }
         else {
+	int64_t coinret = masternodeTierRewards[3]*COIN;
+	int enabed_nodes = mnodeman.CountEnabled();
+	if (enabed_nodes <= 30)
+	{
+	coinret -= 20.8 * COIN;
+	} else if (enabed_nodes <= 60) {
+	coinret -= 18 * COIN;
+	} else if (enabed_nodes <= 90) {
+	coinret -= 17.35 * COIN;
+        } else if (enabed_nodes <= 120) {
+        coinret -= 16.2* COIN;
+        } else if (enabed_nodes <= 150) {
+        coinret -= 15.05 * COIN;
+        } else if (enabed_nodes <= 180) {
+        coinret -= 13.9 * COIN;
+        } else if (enabed_nodes <= 210) {
+        coinret -= 12.75 * COIN;
+        } else if (enabed_nodes <= 240) {
+        coinret -= 11.6 * COIN;
+        } else if (enabed_nodes <= 270) {
+        coinret -= 10.45 * COIN;
+        } else if (enabed_nodes <= 300) {
+        coinret -= 9.3 * COIN;
+        } else if (enabed_nodes <= 330) {
+        coinret -= 8.15 * COIN;
+        } else if (enabed_nodes <= 360) {
+        coinret -= 7 * COIN;
+        } else if (enabed_nodes <= 390) {
+        coinret -= 5.85 * COIN;
+        } else if (enabed_nodes <= 420) {
+        coinret -= 4.7 * COIN;
+        } else if (enabed_nodes <= 450) {
+        coinret -= 3.55 * COIN;
+        } else if (enabed_nodes <= 480) {
+        coinret -= 2.4 * COIN;
+        } else if (enabed_nodes <= 510) {
+        coinret -= 1.25 * COIN;
+	}
+
+	coinret *= .7;
+
             // Using BOOST_FOREACH for concistency with the rest of the code
             BOOST_FOREACH(PAIRTYPE(const int, int)& tier, masternodeTierRewards)
             {
-                if (value == (tier.second*COIN + POS_REWARD_TIERED_MN*COIN + nFees))
+                if (value == (coinret + POS_REWARD_TIERED_MN*COIN + nFees))
                     return true;
             }
             // The case of a wallet staking with no mns up
@@ -1429,7 +1527,7 @@ int64_t GetMNRewardGiven(const CTransaction& tx)
     return reward;
 }
 
-bool IsMNRewardValid(int64_t value, int64_t nFees) {
+bool IsMNRewardValid(int64_t value, int64_t nFees) { //checked, good
     BOOST_FOREACH(PAIRTYPE(const int, int)& tier, masternodeTierRewards) {
         if (value >= (tier.second * COIN) && value <= ((tier.second * COIN) + nFees))
             return true;
@@ -1443,12 +1541,12 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
 {
     int64_t nSubsidy = 0 * COIN;
     
-    if (pindexBest->nHeight+1 > 1 && pindexBest->nHeight+1 <= 15000) {
-        nSubsidy = 25 * COIN;
-    }
-    else if (pindexBest->nHeight+1 > 15000 && pindexBest->nHeight+1 <= TIERED_MASTERNODES_START_BLOCK)
+   // if (pindexBest->nHeight+1 > 1) {
+     //   nSubsidy = 25 * COIN;
+  //  }
+    if (pindexBest->nHeight+1 > 1 && pindexBest->nHeight+1 <= TIERED_MASTERNODES_START_BLOCK)
     {
-        nSubsidy = 125 * COIN;
+        nSubsidy = 1 * COIN;
     }
    
     return nSubsidy + nFees;

@@ -35,7 +35,7 @@ class uint256;
 #define MASTERNODE_EXPIRATION_SECONDS          (65*60)
 #define MASTERNODE_REMOVAL_SECONDS             (70*60)
 
-#define TIERED_MASTERNODES_START_BLOCK         35000 // Tiered mns 1st block
+#define TIERED_MASTERNODES_START_BLOCK         10 // Tiered mns 1st block
 
 using namespace std;
 using namespace boost::assign;
@@ -49,10 +49,10 @@ bool GetBlockHash(uint256& hash, int nBlockHeight);
 
 typedef std::map<int, int> intMap;
 // Masternode tiers
-static std::map<int, int> masternodeTiers = map_list_of (1, 2500) (2, 5000) (3, 10000) (4, 15000) (5, 25000);
+static std::map<int, int> masternodeTiers = map_list_of (1, 1000) (2, 1200) (3, 1300) (4, 1400) (5, 1425) (6, 1550) (7, 1675) (8,1800) (9, 1925) (10, 2075) (11, 2275) (12, 2450) (13, 2675) (14, 2900) (15, 3100) (16, 3375) (17, 3675) (18, 4000);
 
 // Masternode tier rewards
-static std::map<int, int> masternodeTierRewards = map_list_of (1, 20) (2, 50) (3, 120) (4, 200) (5, 350);
+static std::map<int, int> masternodeTierRewards = map_list_of (1, 30) (2, 30) (3, 30) (4, 30) (5, 30) (6, 30) (7, 30) (8, 30) (9, 30) (10, 30) (11, 30) (12, 30) (13, 30) (14, 30) (15, 30) (16, 30) (17, 30) (18, 30);
 
 //
 // The Masternode Class. For managing the darksend process. It contains the input of the CATO, signature to prove

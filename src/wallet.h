@@ -58,7 +58,7 @@ enum AvailableCoinsType
 };
 
 // New pos reward por staking, fixed while mn reward is variable
-#define POS_REWARD_TIERED_MN 5 // 5
+#define POS_REWARD_TIERED_MN 3 // 5
 
 /** A key pool entry */
 class CKeyPool

@@ -21,11 +21,11 @@ class CValidationState;
 #define START_MASTERNODE_PAYMENTS 1519135742 // Tue, 20 Feb 2018 14:09:02 GMT
 
 static const int64_t DARKSEND_COLLATERAL = (0.01*COIN);
-static const int64_t DARKSEND_POOL_MAX = (4999.99*COIN);
+static const int64_t DARKSEND_POOL_MAX = (999.99*COIN);
 
 static const int64_t STATIC_POS_REWARD = 25 * COIN; //Constant reward of 25 CATO 
 static const int64_t TARGET_SPACING = 60; //60 sec
-static const int64_t FIX_REWARD_FORK_BLOCK = 32500; 
+static const int64_t FIX_REWARD_FORK_BLOCK = 3; 
 
 #define INSTANTX_SIGNATURES_REQUIRED           10
 #define INSTANTX_SIGNATURES_TOTAL              15

@@ -834,7 +834,48 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
                         fAcceptable = AcceptableInputs(mempool, tx, false, NULL);
                         if (fAcceptable) { // Update mn tier on our records
                             if (pmn != NULL) {
-                                pmn->UpdateTier(mntier.first);
+				int foo;
+				int foobar;
+				foo = mnodeman.CountEnabled() + 1;
+				if (foo <= 30){
+				foobar = 1;
+				} else if (foo <= 60){
+				foobar = 2;
+                                } else if (foo <= 90){
+                                foobar = 3;
+                                } else if (foo <= 120){
+                                foobar = 4;
+                                } else if (foo <= 150){
+                                foobar = 5;
+                                } else if (foo <= 180){
+                                foobar = 6;
+                                } else if (foo <= 210){
+                                foobar = 7;
+                                } else if (foo <= 240){
+                                foobar = 8;
+                                } else if (foo <= 270){
+                                foobar = 9;
+                                } else if (foo <= 300){
+                                foobar = 10;
+                                } else if (foo <= 330){
+                                foobar = 11;
+                                } else if (foo <= 360){
+                                foobar = 12;
+                                } else if (foo <= 390){
+                                foobar = 13;
+                                } else if (foo <= 420){
+                                foobar = 14;
+                                } else if (foo <= 450){
+                                foobar = 15;
+                                } else if (foo <= 480){
+                                foobar = 16;
+                                } else if (foo <= 510){
+                                foobar = 17;
+                                } else if (foo >= 511){
+                                foobar = 18;
+				}
+
+                                pmn->UpdateTier(foobar);
                             }
                             else {
                                 newMNTier = mntier.first;
@@ -900,7 +941,50 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
 
             // Update tier on new entries just after creation
             if (newMNTier != 0) {
-                mn.UpdateTier(newMNTier);
+		//int foo;
+		//foo = mnodeman.CountEnabled() +1;
+				   int foo;
+                                int foobar;
+                                foo = mnodeman.CountEnabled() + 1;
+                                if (foo <= 30){
+                                foobar = 1;
+                                } else if (foo <= 60){
+                                foobar = 2;
+                                } else if (foo <= 90){
+                                foobar = 3;
+                                } else if (foo <= 120){
+                                foobar = 4;
+                                } else if (foo <= 150){
+                                foobar = 5;
+                                } else if (foo <= 180){
+                                foobar = 6;
+                                } else if (foo <= 210){
+                                foobar = 7;
+                                } else if (foo <= 240){
+                                foobar = 8;
+                                } else if (foo <= 270){
+                                foobar = 9;
+                                } else if (foo <= 300){
+                                foobar = 10;
+                                } else if (foo <= 330){
+                                foobar = 11;
+                                } else if (foo <= 360){
+                                foobar = 12;
+                                } else if (foo <= 390){
+                                foobar = 13;
+                                } else if (foo <= 420){
+                                foobar = 14;
+                                } else if (foo <= 450){
+                                foobar = 15;
+                                } else if (foo <= 480){
+                                foobar = 16;
+                                } else if (foo <= 510){
+                                foobar = 17;
+                                } else if (foo >= 511){
+                                foobar = 18;
+                                }
+
+                mn.UpdateTier(foobar);
             }
 
             if (!CheckNode((CAddress)addr)){
